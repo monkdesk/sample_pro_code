@@ -1,0 +1,817 @@
+/* Login Page */
+.login_headers ion-back-button {
+  padding: 0;
+  margin: 0;
+  color: #969696;
+}
+.login_headers ion-title {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 30px;
+  color: #ed3237;
+}
+.login_logo img {
+  padding: 5px;
+  height: 130px;
+  width: 150px;
+  margin: 0 auto;
+}
+.login_btn{
+  width: 200px;
+  margin: 0 auto;
+  --background: #ed3439;
+  --border-radius: 20px;
+  --box-shadow: unset;
+  position: relative;
+  z-index: 9999;
+}
+.sign_btn{
+  margin-top: 20px !important;
+}
+.login_input {
+  width: 90% !important;
+  margin: 0 auto;
+  position: relative;
+}
+.log_forgot_pass p {
+  text-align: right;
+  width: 100%;
+  font-size: 16px;
+  color: #969696;
+  float: right;
+}
+.log_link_wrap a {
+  width: 100%;
+  text-align: center;
+  color: #ed3439;
+  font-size: 20px;
+  padding: 25px;
+}
+.log_footer_main {
+  margin-bottom: 20px;
+}
+.log_footer {
+  padding: 5px 38px;
+}
+.log_footer p {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+}
+.log_footer p a {
+  color: #ed3439;
+  border-bottom: 1px solid;
+  font-weight: 600;
+}
+.item-has-focus .label-floating.sc-ion-label-md-h {
+  color: #787777;
+--heighlight-background:#ed3439;
+}
+.item-has-focus{
+  border-bottom: 1px;
+  --heighlight-background:#ed3439 !important;
+}
+.pass_show {
+  position: absolute;
+  right: 5px;
+  top: 17px;
+  z-index: 999;
+}
+.forp_content p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #787777;
+  text-align: center;
+}
+.forp_form {
+  margin: 20px auto;
+  width: 100%;
+}
+.forpbtn{
+  width: 175px;
+}
+.alert_msg {
+  background: #ed3439;
+  padding: 1px;
+  font-family: lato;
+  color: #ffff;
+  margin: 0;
+  text-align: center;
+}
+div#success-cart p {
+  margin: 10px;
+}
+.success_bg {
+  background: #196519 !important;
+}
+.pass_instr {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background: #ed3439;
+  color: #fff;
+  border-radius: 15px;
+}
+.pass_instr p {
+  padding: 5px;
+  margin: 7px;
+  font-size: 14px;
+}
+.pass_bg {
+  background: green;
+}
+ion-icon.pass_ico {
+  vertical-align: middle;
+}
+.forp_main {
+  margin-top: 20px;
+}
+.log_link_wrap {
+  width: 45%;
+  margin: 0 auto;
+}
+.log_forgot_pass {
+  display: inline-block;
+  float: right;
+}
+.clr{
+  clear: both;
+}
+.log_loader {
+  z-index: 999999999;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #96969614;
+}
+.sign_loader{
+  height: 200% !important;
+}
+.sign_loader div {
+  bottom: 15% !important;
+}
+.log_loader_sub{
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ed3439 !important;
+}
+.text-primary {
+  color: #ed3439 !important;
+}
+.screen_main {
+  margin-bottom: 60px;
+  position: relative;
+  display: contents;
+}
+.screen_main::after {
+  background-image: url(/assets/images/slider/slider-bg.png);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+ 
+}
+
+ion-item {
+  --background: transparent;
+  z-index: 999;
+}
+
+/* //// Dashboard ///// */
+
+ion-back-button.sc-ion-back-button-md-h.sc-ion-back-button-md-s.md.button.back-button-has-icon-only.ion-activatable.ion-focusable.show-back-button.hydrated {
+  display: inline-block;
+}
+.page_header{
+  position: relative;
+  --background: #ed3237;
+}
+.page_header ion-title {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #fff;
+}
+.tab-selected{
+  color: #ed3439 !important;
+}
+.tab_fab_main {
+  position: unset;
+  bottom: 58px;
+  background: transparent;
+  height: auto;
+  width: auto;
+  left: 0;
+  border: 0;
+}
+.tab_fab_main_wrap {
+  --background: #ed3439;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 8px;
+  left: 44%;
+}
+.tab_fab_btn {
+  width: 130px;
+  --border-radius: 45px;
+}
+.tab_fab_btn ion-icon {
+  margin: 5px;
+}
+.fab_list {
+  background: #000000bf;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin-bottom: 57px;
+}
+.home_default::before {
+  background-image: url(/assets/images/home_bg.png);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60.5%;
+    height: 51%;
+    background-size: contain;
+    display: block;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+.home_top_text {
+  width: 50%;
+  top: 12%;
+  color: #fff;
+}
+.home_top_logo {
+  display: inline-block;
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+.activiy_box {
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  width: 95%;
+  margin: auto;
+  display: block;
+  margin-top: 180px;
+}
+.activiy_box::after, .activiy_box::before {
+  content: "";
+  clear: both;
+  display: block;
+}
+.home_menutab_wrap {
+  background: #fff;
+  width: 46.7%;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 130px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  text-align: center;
+}
+.challenge_slide_img {
+  width: 100%;
+  height: 100px;
+  background: white;
+  margin: 5px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+}
+.challenge_slide_img .img_names {
+  height: 100px;
+  display: table;
+}
+.challenge_slide_img .img_names ion-img {
+  display: table-cell;
+  vertical-align: middle;
+  height: 65px;
+  width: 100%;
+}
+.challenge_slides_label {
+  margin: 0;
+  padding: 0;
+  color: #ed3439;
+  font-weight: 600;
+  margin-left: 7%;
+}
+.icon_wraps {
+  display: table;
+  height: 130px;
+  margin: auto;
+}
+.activity_img {
+  height: 63px;
+  width: 100px;
+}
+.activity_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.icon_wraps_inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.activiy_name p {
+  margin-bottom: 0;
+  line-height: 17px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.profile_header ion-icon {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-size: 70px;
+  color: #c6c1c8;
+}
+.profile_header div ion-text {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #233653;
+}
+.profile_header div{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.profile_save_btn {
+  --background: transparent;
+  color: #c6c1c8;
+  --box-shadow: none;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font-weight: 600;
+}
+.page_header ion-back-button{
+  position: absolute;
+  top: 3px;
+  left: 0;
+  z-index: 1;
+  color: #fff !important;
+}
+
+/* Virtual Challenged */
+.endu_block{
+  width: 100%;
+    height: 100px;
+    background: white;
+    margin: 5px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+}
+.monthly_block{
+  width: 30%;
+  height: 100px;
+  background: white;
+  margin: 5px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  display: inline-block;
+}
+.monthly_challenge {
+  padding: 10px;
+  display: inline-block;
+}
+.profile_content {
+  padding-bottom: 20px;
+}
+.endu_block_img {
+  height: 100px;
+  display: table;
+}
+.endu_block_img ion-img {
+  display: table-cell;
+  vertical-align: middle;
+  height: 65px;
+  width: 100%;
+}
+.endu_title ion-text {
+  color: #ed3439;
+  font-weight: 600;
+}
+.monthly_block_main {
+  background: #fff;
+  width: 30%;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 110px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  text-align: center;
+  overflow: hidden;
+}
+.sel_eve_name ion-text {
+  color: #ed3237;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.sel_eve_img{
+margin-top: 25px;
+}
+.sel_eve_img img {
+  height: 100px;
+  width: 150px;
+  margin: auto;
+  object-fit: contain;
+}
+.sel_eve_date ion-text {
+  color: #233653;
+  font-weight: 600;
+}
+.sel_eve_date ion-icon {
+  color: #ed3237;
+  margin-right: 5px;
+}
+.monthly_name p {
+  margin-bottom: 5px;
+  background: #233653;
+  overflow: hidden;
+  color: #fff;
+  padding: 2px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.monyhly_img img {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  margin: auto;
+}
+.page_contain{
+  z-index: 9999;
+  position: relative;
+}
+/*  single Events page Design  */
+.sin_ev_content{
+  margin-top: 25px;
+}
+
+.sin_ev_content .eve_box_wrap .ev_box_imgL {
+  width: 50px;
+  height: 50px;
+  background: #233653;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.sin_ev_content .eve_box_wrap .ev_box_imgL img {
+  width: 30px;
+  object-fit: contain;
+}
+.sin_ev_content .eve_box_wrap {
+  background: #fff;
+  width: 90%;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  position: relative;
+
+}
+.ev_box_name {
+  margin-left: 20px;
+}
+.ev_box_name p {
+    color: #233653;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sin_ev_content .eve_box_wrap:nth-of-type(even) .ev_box_imgL {
+  background: #ed3439;
+}
+/* Thought of the day */
+
+.though_main {
+  background: #f8f8f8;
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.thought_box {
+  background: white;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  padding: 0;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+}
+.thought_date {
+  background: #233653;
+  flex-basis: 25%;
+  float: left;
+  height: auto;
+}
+.date_blox {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.date_blox p {
+  vertical-align: middle;
+  display: table-cell;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.thought_text {
+  flex-basis: 75%;
+  float: right;
+  height: 100%;
+  vertical-align: middle;
+  display: table;
+}
+.thought_text p {
+  font-size: 13px;
+  padding-left: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 5px 5px 5px;
+}
+.thoughtday_head ion-toolbar {
+  --background: #ed3439;
+  color: #fff;
+}
+.eve_box_wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  right: 4px;
+  background-size: 42px 42px;
+  height: 100%;
+  width: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+.sin_ev_content .eve_box_wrap:nth-of-type(1)::after {
+  background-image: url(/assets/icon/register2.png);
+  
+}
+.sin_ev_content .eve_box_wrap:nth-of-type(2)::after {
+  background-image: url(/assets/icon/submitdata2.png);
+ 
+}
+.sin_ev_content .eve_box_wrap:nth-of-type(3)::after {
+  background-image: url(/assets/icon/download2.png);
+ 
+}
+.sin_ev_content .eve_box_wrap:nth-of-type(4)::after {
+  background-image: url(/assets/icon/leadershipboard2.png);
+ 
+}
+
+/* Training page*/
+.train_box {
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  margin: 10px;
+  border-radius: 10px;
+  width: 95%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.train_ico {
+  margin: 0;
+  background: red;
+  display: inline-block;
+  border-radius: 31px;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.train_ico img {
+  padding: 6px;
+}
+.train_title {
+  display: inline-block;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.train_title p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.train_icor {
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  margin-right: 5px;
+  padding-top: 9px;
+}
+.train_main{
+  margin-top: 15px;
+}
+.train_icor ion-icon {
+  font-size: 20px;
+}
+.tra_ask_btn ion-button {
+  width: 250px;
+  margin: 10px auto;
+}
+.trainviw_titl p {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+/* Ask Question */
+.ask_main {
+  margin-top: 15px;
+}
+.ask_btn {
+  margin-top: 20px;
+}
+
+
+/* LeaderShipBoard Page */
+.page_contain_wrpa > div {
+  z-index: 99999;
+}
+
+.boardbox_head {
+  width: 100%;
+  background: #233653;
+  padding: 10px;
+}
+.boardbox_head ion-card-title {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-transform: capitalize;
+}
+.boardbox_content  {
+  padding-top: 10px !important;
+  background: #fff;
+  overflow-y: scroll;
+  height: 205px;
+}
+.board_wrap {
+  width: 100%;
+  display: inline-block;
+  padding: 7px;
+}
+.board_index {
+  display: inline-block;
+}
+.board_name {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.board_name p {
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.board_meter {
+  display: inline-block;
+  float: right;
+}
+.board_box {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  max-height: 340px;
+}
+.leadership_main {
+  padding-top: 50px;
+} 
+.year_btn ion-button {
+  margin: 10px;
+  color: #233653;
+  --padding: 0;
+  --border-radius: 10px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  --background: #fff;
+  --border-color: red;
+}
+.active_year_btn{
+  --background: #233653 !important;
+  color: #fff !important;
+}
+
+.year_text {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  /* padding-left: 15px; */
+}
+.year_text p {
+  font-size: 15px;
+  color: #ed3237;
+  vertical-align: middle;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.year_btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.sub_segment {
+  padding: 0;
+  --background: none;
+  --background-checked: #ed3237;
+  --background-hover: rgba(var(--ion-color-primary-rgb,56,128,255),0.04);
+  --background-activated: rgba(var(--ion-color-primary-rgb,56,128,255),0.16);
+  --color: rgba(var(--ion-text-color-rgb,0,0,0),0.6);
+  margin-bottom: 10px;
+  width: 90%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  --color-checked: transparent
+}
+.sub_segment .sub_segment_btn {
+  border: solid 1px #ed3237;
+  margin-bottom: 0;
+  color: #ed3237;
+}
+.sub_segment .sub_segment_btn.segment-button-checked {
+  color: #fff;
+}
+.segment_main{
+  --color-checked: #ed3237;
+    --color-checked-disabled: var(--color-checked);
+}
+
+
+/* Add WorkOuts */
+.addWork_form1 {
+  margin: 10px auto;
+  box-shadow: 1px 3px 14px 4px rgba(0, 0, 0, 0.04), 0 10px 10px rgba(0, 0, 0, 0.13);
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+.addWork_form1 ion-item{
+  width: 100% !important;
+}
